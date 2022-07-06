@@ -37,21 +37,3 @@
     transform: rotate(360deg);
   }
 }
-
-.Button {
-  border: none;
-  border-radius: 5px;
-  padding: 10px 24px 10px 24px;
-
-  background-color: lightgray;
-  font-size: 2rem;
-  
-  transition: all 0.3s;
-}
-
-.Button:hover {
-  cursor: pointer;
-  
-  background-color: cornflowerblue;
-  color: white;
-}
