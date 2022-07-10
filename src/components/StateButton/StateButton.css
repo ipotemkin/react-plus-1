@@ -5,8 +5,8 @@
   gap: 12px;
 
   border: none;
-  border-radius: 5px;
-  padding: 10px 24px 10px 24px;
+  border-radius: 8px;
+  padding: 10px 24px;
 
   background-color: lightgray;
   font-size: 2rem;
@@ -14,10 +14,6 @@
   transition: all 0.3s;
 }
   
-/* .StateButton_type_normal {
-  background-color: aqua;
-} */
-
 .StateButton_type_action {
   background-color: cornflowerblue;
   color: white;
@@ -66,20 +62,21 @@
 }
 
 .StateButton_size_s {
- padding: 6px 12px 6px 12px; 
+ padding: 6px 12px; 
 }
 
 .StateButton_size_l {
-  padding: 16px 30px 16px 30px; 
+  padding: 16px 30px;
  }
 
 .StateButton_size_xl {
-  padding: 20px 36px 20px 36px;
+  padding: 20px 36px;
   font-size: 2.5rem;
 }
 
 .StateButton-Icon {
   width: 36px;
+  cursor: not-allowed;
 }
 
 /* #Material_Expand {
