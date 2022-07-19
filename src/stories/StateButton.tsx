@@ -28,7 +28,6 @@ type StateButtonProps = {
 export const StateButton: FC<StateButtonProps> = ({
   text = '', state = 'normal', size = 'm', children, icon = false
 }) => {  
-
   let iconColor
   switch (state) {
     case 'action': {

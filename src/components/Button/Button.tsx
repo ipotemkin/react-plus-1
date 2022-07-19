@@ -9,4 +9,5 @@ type ButtonProps = {
   text?: String
 }
 
-export const Button: FC<ButtonProps> = ({ text = "Кнопка" }) => <><button className={cnButton()}>{text}</button></>
+export const Button: FC<ButtonProps> = ({ text = "" }) => 
+  <button className={cnButton()}>{text}</button>
