@@ -17,6 +17,14 @@ npm i
     ```
     Откройте в браузере [http://localhost:3000](http://localhost:3000).
 
+- Запуск storybook:
+
+    ```sh
+    npm run storybook
+    ```
+    Откройте в браузере [http://localhost:6006](http://localhost:6006).
+
+
 - Создание production сборки (в папке build):
 
     ```sh
