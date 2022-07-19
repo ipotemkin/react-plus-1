@@ -29,6 +29,7 @@ function App() {
         <br />
         <h3>Айконка</h3>
         <Icon src={logo} size={100}/>
+        <Icon name="forward" size={100}/>
         <br />
         <h3>Поженим!</h3>
         <StateButton text="Icon test" state="outlined">
@@ -39,9 +40,8 @@ function App() {
         </StateButton>
         <br />
         <h3>С подписью понятнее</h3>
-          <IconWithLabel
-            src={logo} size={100}
-            label="React Logo" labelSize={28} />
+          <IconWithLabel src={logo} size={100} label="React Logo" labelSize={28} />
+          <IconWithLabel iconName="play" size={100} label="Play" labelSize={28} />
         <br />
         <h3>Покажи это</h3>
         <AddQM tooltip="Черное море">

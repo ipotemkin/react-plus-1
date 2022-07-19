@@ -3,6 +3,7 @@ import { cn } from '@bem-react/classname'
 import { Icon } from '../Icon/Icon'
 
 import './IconWithLabel.css'
+import { getIconNames } from '../Icon/utils/getIcon'
 
 
 const cnIconWithLabel = cn('IconWithLabel')
@@ -12,11 +13,12 @@ type IconWithLabelProps = {
   size?: number
   label?: string
   labelSize?: number
+  iconName?: getIconNames
 }
 
 export const IconWithLabel: FC<IconWithLabelProps> = (
-    { src = '', size = 36, label = 'No label',  labelSize = 18 }
+    { src = '', iconName, size = 36, label = 'No label',  labelSize = 18 }
 ) => <div className={cnIconWithLabel()}>
-    <Icon src={src} size={size} />
+    <Icon src={src} name={iconName} size={size} />
     <span style={{ fontSize: `${labelSize}px` }}>{label}</span>
 </div>
