@@ -1,0 +1,13 @@
+.AddQM {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.AddQM-QM {
+    font-size: 2rem;
+}
+
+.AddQM-QM:hover {
+    cursor: help;
+}

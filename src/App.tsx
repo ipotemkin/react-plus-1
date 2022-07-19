@@ -6,6 +6,7 @@ import { StateButton } from './components/StateButton/StateButton';
 import logo from './logo.svg';
 // import icon from './components/StateButton/assets/icon.svg'
 import { IconWithLabel } from './components/IconWithLabel/IconWithLabel';
+import { AddQM } from './components/AddQM/AddQM';
 
 function App() {
   return (
@@ -33,14 +34,20 @@ function App() {
         <StateButton text="Icon test" state="outlined">
           <Icon src={logo} size={64}/>
         </StateButton>
+        <StateButton text="Icon test 2" state="outlined-info">
+          <Icon name="forward" size={64}/>
+        </StateButton>
         <br />
         <h3>С подписью понятнее</h3>
           <IconWithLabel
             src={logo} size={100}
             label="React Logo" labelSize={28} />
         <br />
+        <h3>Покажи это</h3>
+        <AddQM tooltip="Черное море">
+          <Button text="Что там справа" />
+        </AddQM>
         <br />
-        <h3>С подписью понятнее</h3>
       </header>
     </div>
   );

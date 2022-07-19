@@ -13,6 +13,10 @@
   
   transition: all 0.3s;
 }
+
+.StateButton:hover {
+  cursor: pointer;
+}
   
 .StateButton_type_action {
   background-color: cornflowerblue;
